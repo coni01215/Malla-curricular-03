@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Malla Curricular Interactiva</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f7f7f7;
+      text-align: center;
+    }
+    table {
+      margin: 20px auto;
+      border-collapse: collapse;
+    }
+    td {
+      border: 1px solid #ccc;
+      padding: 20px;
+      background-color: #ffffff;
+      cursor: pointer;
+    }
+    td:hover {
+      background-color: #e0f7fa;
+    }
+  </style>
+</head>
+<body>
+  <h1>Malla Curricular - Carrera X</h1>
+  <table>
+    <tr>
+      <td onclick="alert('Matemáticas I\nContenidos: Álgebra, lógica\nProfesor: C. González')">Matemáticas I</td>
+      <td onclick="alert('Física I\nContenidos: Cinemática\nProfesor: J. Torres')">Física I</td>
+      <td onclick="alert('Historia\nContenidos: Historia universal\nProfesor: L. Rojas')">Historia</td>
+    </tr>
+    <tr>
+      <td onclick="alert('Matemáticas II\nCálculo diferencial')">Matemáticas II</td>
+      <td onclick="alert('Física II\nDinámica y energía')">Física II</td>
+      <td onclick="alert('Inglés I\nGramática básica')">Inglés I</td>
+    </tr>
+  </table>
+</body>
+</html>
